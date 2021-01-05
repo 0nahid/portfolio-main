@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+.menu{
+    height: 50px;
+}
+.menu ul{
+    float: right;
+    margin: 20px;
+}
+.menu ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 30px;
+    font-weight: 500;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 0.6;
+    color: #363958;
+}
+.second-color{
+    color: #FF8367;
+}
+.about p{
+    width: 320px;
+    color: #3E3E3E;
+}
+.btn{
+    padding: 8px 13px;
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color:#FF8063;
+    border: none;
+    outline: none; 
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.box{
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+    margin-top: 20px;
+
+}
+.box img{
+    width: 100%;
+}
+.box .paragraph-color{
+    color: #3E3E3E;
+}
+.portfolio{
+    background-color: #E5E5E5;
+
+}
+.box-image{
+    width: 100%;
+    float: left;
+}
+.box-image img{
+    width: 30%;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 1%;
+}
+section{
+    margin-bottom: 40px;
+    height: 600px;
+}
+
+.box-image{
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+    padding: 1%;
+}
+.box-image img{
+    width: 100%;
+}
+.box-image .img1{
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+    box-shadow: 1px solid;
+    padding: 1%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#service{
+    background-color: #E5E5E5;
+    height: 600px;
+    padding: 5%;
+}
+.work{
+    text-align: center;
+}
+.working-color{
+    color: #F46060;
+}
+#chat{
+    height: 300px;
+    margin: auto;
+}
+.chat-box{
+    background-image: url(./Image/Group_33094_1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 906px;
+    height: 225px;
+    margin: auto;
+    border-radius: 30px;
+}
+.chat-box h1{
+    float: left;
+    margin-top: 100px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 50px;
+}
+.chat-btn{
+    float: right;
+    margin-top: 100px;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+footer h5{
+    color: #696871;
+    font-size: 24px;
+    text-transform: uppercase
+}
+footer p{
+    color: #363958;
+    font-size: 30px;
+}
+.social-icon img{
+    width: 30px;
+    margin-left: 10px;
+}
